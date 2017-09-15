@@ -4,12 +4,34 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <title>James Bui's Website Page 2</title>
+    <meta charset='utf-8' />
+    <title> James's Map </title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:10%; bottom:0; width:100%; }
+        sidebar { position:fixed; left: 80%; padding: 1%; text-align:left; }
+    </style>
+</head>
 </head>
 
 <body>
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamFtZXNidWk5OCIsImEiOiJjajZ2bmVjZWMxM29mMzNwaG40NGhnbGhjIn0.9zakKmxowLjTtzrJnSUd0g';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+    center: [149.209900, -33.865143], // starting position [lng, lat]
+    zoom: 9 // starting zoom
+});
+</script>
 <style>
 body {
 	background-color: #FFFFFF
+<font color="#000000">text</font>
 }
 </style>
  <div class="topnav" id="myTopnav">
@@ -29,7 +51,7 @@ this is a new line
 
 
 <footer> 
-<a href="https://github.com/madeleinejohanson"> your footer text here</a>
+<a style="font-size: 200%;" href="https://github.com/JamesBui98"> JamesBui98 Github</a>
 </footer>
 
 </body>

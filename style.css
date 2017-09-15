@@ -1,15 +1,15 @@
 body {
 	background: #FFFFFF;
-	color: #FFFFFF;
+	color: #000000;
 	text-align:center;
-	font-family:Helvetica;
+	font-family:Kunstler Script;
 	font-size:24px;
 }
 
 h1 {
-	border-style: solid;
-	border-width: 10px;
-	border-color: #CD5C5C;
+	border-style: double;
+	border-width: 5px;
+	border-color: #d3d3d3;
 	padding: 1%;
 	width: 40%;
 	height:10%;
@@ -36,7 +36,7 @@ footer {
 .topnav a {
 	float:left;
 	display:block;
-	color:#001f3f;
+	color:#000000;
 	text-align: center;
 	padding:14px 16px;
 	text-decoration: none;
@@ -45,5 +45,5 @@ footer {
 
 .topnav a:hover {
 	background-color: #001f3f;
-	color: #DDDDDD;
+	color: #000000;
 }
